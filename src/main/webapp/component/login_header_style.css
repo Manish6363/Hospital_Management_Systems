@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Lucida Sans", "Lucida Sans Regular", sans-serif;
+	background-color: #f4f4f4;
+}
+
+:root {
+	--head-background-color: #32cd32;
+	--accent-color: #218838;
+	--text-color-white: #fff;
+	--text-dark: #2d2d2d;
+	--hover: #d4f7d4;
+}
+
+header {
+	background-color: var(--head-background-color);
+	color: var(--text-color-white);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#head-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: .5rem 1.5rem;
+	flex-wrap: wrap;
+}
+
+#logo {
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-family: Georgia, serif;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+#nav-bar-right {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+.anchor {
+	text-decoration: none;
+	color: var(--text-color-white);
+	font-weight: 600;
+	font-size: 0.95rem;
+}
+
+.anchor:hover {
+	color: var(--hover);
+}
+
+#profile-section {
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	cursor: pointer;
+}
+
+#profile-pic {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	object-fit: cover;
+	border: 2px solid #fff;
+}
+
+#profile-name {
+	font-weight: 600;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	background-color: var(--text-color-white);
+	color: #333;
+	min-width: 160px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 0.3rem;
+	overflow: hidden;
+	z-index: 1000;
+}
+
+.dropdown-content a {
+	display: block;
+	padding: 0.75rem 1rem;
+	text-decoration: none;
+	color: #333;
+	font-size: 0.9rem;
+}
+
+.dropdown-content a:hover {
+	background-color: #f0f0f0;
+}
+
+#profile-section:hover .dropdown-content {
+	display: block;
+}
+
+#hamburger {
+	display: none;
+	font-size: 1.5rem;
+	cursor: pointer;
+	color: var(--text-color-white);
+}
+
+/* Responsive Styles */
+@media ( max-width : 540px) {
+	#nav-bar-right {
+		display: none;
+		flex-direction: column;
+		width: 100%;
+		background-color: var(--accent-color);
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+	}
+	#nav-bar-right.show {
+		display: flex;
+		max-height: 500px;
+		padding: 1rem 0;
+	}
+	#hamburger {
+		display: block;
+	}
+	.dropdown-content {
+		position: static;
+		box-shadow: none;
+		width: 100%;
+		background-color: #e7fce7;
+	}
+	.dropdown-content a {
+		padding: 0.7rem 1.2rem;
+		border-top: 1px solid #ccc;
+	}
+	#profile-pic {
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		object-fit: cover;
+		border: 2px solid #fff;
+	}
+}
