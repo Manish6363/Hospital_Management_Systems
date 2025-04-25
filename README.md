@@ -19,13 +19,13 @@ The Hospital Management System (HMS) project is designed to automate and streaml
 
 The long-term aim is to substitute conventional paper-based management systems with an easy-to-use, user-friendly web application that guarantees proper record-keeping, fast data retrieval, and real-time updation.
 
-![image](https://github.com/user-attachments/assets/b7319fa0-bf91-4ef4-8e7f-a54c001d211a)
+![Screenshot 2025-04-24 161350](https://github.com/user-attachments/assets/14923233-cbd7-4106-b6db-c00961c7a712)
 
-![image](https://github.com/user-attachments/assets/5f07f41d-ee89-4ffc-a430-8e5b40f76c8c)
+![Screenshot 2025-04-24 161425](https://github.com/user-attachments/assets/1b4a9fe9-3ac6-4e90-97a0-b2518d84c602)
 
-![image](https://github.com/user-attachments/assets/df607b77-5b6d-44ac-97ce-8c6eda4ebcbd)
+![Screenshot 2025-04-24 161549](https://github.com/user-attachments/assets/bd4041a1-a284-4e57-9816-3ed202b53f7b)
 
-![image](https://github.com/user-attachments/assets/ece87071-ed79-4710-936f-ea989df1b8fd)
+![Screenshot 2025-04-24 161653](https://github.com/user-attachments/assets/fcacc53b-558a-4af4-8d49-30cf444087a7)
 
 
 ## Modules of the Project:
@@ -46,13 +46,13 @@ To manage all patient registration, profile management, and appointment request 
 
    **_Dashboard:_** The patient is able to view an interactive dashboard, presenting key information such as future appointments, health record, and requesting new appointments.
 
-![image](https://github.com/user-attachments/assets/24c18382-b49e-4e9a-9642-705fe1249fbb)
+![Screenshot 2025-04-24 160921](https://github.com/user-attachments/assets/619c7764-e8ea-4aa8-8757-9823118cbe9d)
 
-![image](https://github.com/user-attachments/assets/3c4d8dc2-d5a7-4df3-87e9-a33fb2482440)
+![Screenshot 2025-04-24 161015](https://github.com/user-attachments/assets/f0a0c1b1-7ed5-42a0-9b00-eb8b529fcb34)
 
-![image](https://github.com/user-attachments/assets/f66e0dcf-98a7-4894-a17c-3a118adac1d7)
+![Screenshot 2025-04-24 161038](https://github.com/user-attachments/assets/18e45638-ceb6-479e-9e54-c86b5779e421)
 
-![image](https://github.com/user-attachments/assets/34336f76-e33d-4f28-801c-80d9aeae249b)
+![Screenshot 2025-04-24 161144](https://github.com/user-attachments/assets/e90b2c41-2ac9-428b-8ba8-3608677997c6)
 
 
 ## 2. Doctor Management Module:
@@ -69,9 +69,10 @@ To handle doctor registrations, their profiles, availability, and appointment sc
 
 **_Doctor Dashboard:_** Doctors are able to see a dashboard that shows them relevant information like his profile, scheduled appointments of patient.
 
-![image](https://github.com/user-attachments/assets/b5f942a5-182d-4d83-8d59-3a7f4dccc95b)
+![Screenshot 2025-04-24 160736](https://github.com/user-attachments/assets/3a236588-e21a-4c8a-884b-98614e32b26e)
 
-![image](https://github.com/user-attachments/assets/3203a0bb-d6e9-4b47-8d89-3ff9e1d045b9)
+![Screenshot 2025-04-24 160813](https://github.com/user-attachments/assets/8bc5be76-7073-4872-9335-ea63f6912a3c)
+
 
 
 ## 3. Admin Management Module:
@@ -88,13 +89,15 @@ To centralize the operation of the whole hospital, such as patient and doctor re
 
 **_System Maintenance:_** Admins can track system performance, maintain database connections, manage user roles and permissions, and maintain data integrity.
 
-![image](https://github.com/user-attachments/assets/96c1014a-d215-4a04-8cde-2f9216c15ca3)
+![Screenshot 2025-04-24 160304](https://github.com/user-attachments/assets/3d1f3cf1-8f8d-4274-98eb-b0958bd81a1b)
 
-![image](https://github.com/user-attachments/assets/4100bccc-0da4-463f-be61-a0c0688e89f3)
+![Screenshot 2025-04-24 160426](https://github.com/user-attachments/assets/cbdb9bef-9aaf-473d-a411-c6e5887704c4)
 
-![image](https://github.com/user-attachments/assets/856c4ef9-2884-49ba-a6ec-049b105e678e)
+![Screenshot 2025-04-24 160509](https://github.com/user-attachments/assets/8f41c349-bcbc-438a-b88d-394de9640adf)
 
-![image](https://github.com/user-attachments/assets/cca8ed13-2608-4c72-a649-b612b6fc6de3)
+![Screenshot 2025-04-24 160554](https://github.com/user-attachments/assets/89de47db-640f-42b4-8b8b-d220e89f29de)
+
+![Screenshot 2025-04-24 161144](https://github.com/user-attachments/assets/e90b2c41-2ac9-428b-8ba8-3608677997c6)
 
 
 ## 4. Appointment Scheduling Module:
@@ -111,9 +114,7 @@ To make the process of patients asking for, doctors sanctioning, and the admin m
 
 **_Appointment Notifications:_** Doctors and patients are notified of appointment status updates or when an appointment is imminent.
 
-![image](https://github.com/user-attachments/assets/ea91515d-94bd-4b87-8bf8-ec1688b8d6ff)
-
-
+![Screenshot 2025-04-24 160554](https://github.com/user-attachments/assets/d5982e2c-7adc-4602-8138-e73e0d90a801)
 
 
 ## 5. Security and Authentication Module:
