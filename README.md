@@ -93,6 +93,8 @@ To centralize the operation of the whole hospital, such as patient and doctor re
 
 ![Screenshot 2025-04-24 160426](https://github.com/user-attachments/assets/cbdb9bef-9aaf-473d-a411-c6e5887704c4)
 
+![image](https://github.com/user-attachments/assets/281574c1-0355-4186-aa94-8d71e42fa19d)
+
 ![Screenshot 2025-04-24 160509](https://github.com/user-attachments/assets/8f41c349-bcbc-438a-b88d-394de9640adf)
 
 ![Screenshot 2025-04-24 160554](https://github.com/user-attachments/assets/89de47db-640f-42b4-8b8b-d220e89f29de)
